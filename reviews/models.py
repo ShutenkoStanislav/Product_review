@@ -3,13 +3,13 @@ from django.db import models
 class Product(models.Model):
     name = models.CharField(max_length=256)
     description = models.TextField()
-    price = models.DecimalField()
+    price = models.DecimalField(max_digits=10, decimal_places=2)
     def __str__(self):
         return f"{self.name} - {self.price}"
     class Meta:
         verbose_name = "Product"
         verbose_name_plural = "Products"
-        ordering = "name"
+        ordering = ["name"]
 
 
 
@@ -23,7 +23,7 @@ class Review(models.Model):
     class Meta:
         verbose_name = "Review"
         verbose_name_plural = "Reviews"
-        ordering = "rating"
+        ordering = ["rating"]
 
 
 
