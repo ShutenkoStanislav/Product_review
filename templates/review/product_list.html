@@ -1,9 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
-    {% for product in products %}
-        <h2>Product id #{{ product.id }}</h2>
-        <h1>Product name: {{ product.name }} - ${{ product.price }}</h1> <a href="{% url 'add_review' product.id %}">Add review</a>
-        <h2>Description: {{ product.description }}</h2>
-        <hr>
-    {% endfor %}
+    <ul class="product_list_container">
+        {% for product in products %}
+            <li class="product_list_item">
+                <div class="product_ifno">
+                    <p>Product id #{{ product.id }}</p>
+                    <p>Product name: {{ product.name }} - ${{ product.price }}</p> 
+                    <p>Description: {{ product.description }}</p> 
+                    
+                </div>
+                <a href="{% url 'add_review' product.id%}" class = "add_review_button">Add review</a>
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock %}

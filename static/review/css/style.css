@@ -56,3 +56,58 @@ body {
 .product_list_button:hover {
     transform: scale(1.05);
 }
+
+.product_list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    max-width: 900px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    
+    
+}
+.product_ifno {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    flex: 1;
+    
+}
+.product_list_container {
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+
+    
+   
+}
+
+.add_review_button {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    background-color: #00bf63;
+    color: black;
+    width: 400px;  
+    height: 150px;
+    border-radius: 15px;
+    text-decoration: none ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    margin-left: 2rem;
+    font-size: 4rem;
+    border-radius: 45px;
+    
+
+}
+
+.add_review_button:hover {
+    transform: scale(1.05);
+    
+}
