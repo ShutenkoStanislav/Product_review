@@ -152,3 +152,61 @@ body {
 
 
 }
+
+.item_name_font {
+    font-size: 3rem;
+}
+
+.submit_review_button {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: 0 auto;
+
+    background-color: #00bf63;
+    color: black;
+    
+    width: 500px;
+    height: 150px;
+    border-radius: 40px;
+
+    transition: all 0.3s ease;
+    font-size: 4rem;
+
+    font-weight: bold ;
+
+}
+
+.submit_review_button:hover{
+    transform: scale(1.05);
+}
+
+
+.titles_for_input {
+    font-size: 5rem;
+    margin: auto 0;
+}
+
+
+.input_area {
+    display: flex;
+    background-color: #00bf63;
+    color: black;
+    border-radius: 20px;
+    width: 450px;
+    height: 100px;
+    margin: 0 auto 0;
+    line-height: 1.5;
+    font-size: 4rem;
+    margin-top: -5rem;
+}
+
+.rating_field {
+    width: 100px;
+    margin-left: 467px;
+}
+
+.text_text{
+    margin-right: 100px;
+}
+
