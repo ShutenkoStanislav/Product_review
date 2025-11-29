@@ -1,8 +1,10 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
+{% load static %}
 {% block content%}
-    
+    <div class="review_detail">
     <p>Author# {{review.author}}</p>
     <p>Text# {{review.text}}</p>
     <p>Rating# {{review.rating}}</p>
+    </div>
 
 {% endblock %}

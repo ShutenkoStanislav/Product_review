@@ -111,3 +111,44 @@ body {
     transform: scale(1.05);
     
 }
+
+
+.review_detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 45px;
+    background-color: #00bf63;
+    color:black;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    margin: 0 auto;
+    margin-top: 10vh;
+
+    height: auto;
+    min-height: 600px;
+    width: 600px;
+    
+
+    line-height: 1;
+    padding: 40px;
+    
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    overflow-y: auto;
+    
+
+
+}
