@@ -9,7 +9,9 @@
                     <p>Product name: {{ product.name }} - ${{ product.price }}</p> 
                     <p>Description: {{ product.description }}</p> 
                     
+                    
                 </div>
+                
                 <a href="{% url 'add_review' product.id%}" class = "add_review_button">Add review</a>
             </li>
         {% endfor %}

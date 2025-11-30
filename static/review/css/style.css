@@ -182,9 +182,17 @@ body {
 }
 
 
+
+
+
 .titles_for_input {
+    display: inline-block; 
     font-size: 5rem;
-    margin: auto 0;
+    width: 450px; 
+    text-align: right; 
+    margin: 20px 0 10px;
+    padding-right: 10px;
+    margin-bottom: -20px;
 }
 
 
@@ -206,7 +214,4 @@ body {
     margin-left: 467px;
 }
 
-.text_text{
-    margin-right: 100px;
-}
 
